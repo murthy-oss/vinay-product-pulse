@@ -1,5 +1,5 @@
 
-import { Tool } from "lucide-react";
+import { Wrench } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
@@ -25,7 +25,7 @@ const Skills = () => {
     <section id="skills" className="py-20">
       <div className="section-container">
         <div className="flex items-center gap-3 mb-8">
-          <Tool className="h-6 w-6" />
+          <Wrench className="h-6 w-6" />
           <h2 className="section-title">Skills</h2>
         </div>
 
