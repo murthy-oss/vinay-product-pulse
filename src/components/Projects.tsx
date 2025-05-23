@@ -15,8 +15,7 @@ const Projects = () => {
       ],
       technologies: ["Flutter", "Gemini API", "UX Research"],
       links: {
-        github: "#",
-        live: "#"
+        live: "https://play.google.com/store/apps/details?id=com.vinaylakkoju.resume_analyzer&pcampaignid=web_share",
       }
     },
     {
@@ -29,8 +28,7 @@ const Projects = () => {
       ],
       technologies: ["Flutter", "Gemini API", "UX Research"],
       links: {
-        github: "#",
-        live: "#"
+        live: "https://play.google.com/store/apps/details?id=com.vinaylakkoju.flutter_gemini",
       }
     }
   ];
@@ -65,7 +63,7 @@ const Projects = () => {
                 </div>
               </CardContent>
               <CardFooter className="pt-0 flex justify-end space-x-4">
-                <a 
+                {/* <a 
                   href={project.links.github} 
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -73,7 +71,7 @@ const Projects = () => {
                   aria-label="View on GitHub"
                 >
                   <Github className="h-5 w-5" />
-                </a>
+                </a> */}
                 <a 
                   href={project.links.live} 
                   target="_blank" 

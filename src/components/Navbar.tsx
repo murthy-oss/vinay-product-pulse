@@ -50,7 +50,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button asChild className="ml-4">
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/16aeao4VGZk_B2DdBSIxhz6ESjvzGBCWF/view" target="_blank" rel="noopener noreferrer">
                 Resume
               </a>
             </Button>

@@ -36,7 +36,9 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 mx-auto overflow-hidden rounded-full bg-gray-100 border-4 border-white shadow-xl">
                 <div className="flex items-center justify-center h-full">
-                  <p className="text-gray-500 text-lg font-medium">Profile Photo</p>
+                 <img src="https://likhithdeveloper.github.io/developers.gen/assets/images/3.png"  className="hero-image"
+                 style={{ maxWidth: '100%', height: '100%' }}
+                 ></img>
                 </div>
               </div>
             </div>
